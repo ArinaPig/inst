@@ -1,0 +1,92 @@
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 10pt;
+}
+
+img {
+	width: 470;
+}
+
+hr {
+	width: 470px;
+	position: absolute;
+	top: 5px;
+	color: grey;
+}
+
+.item {
+	/* width: 470px;
+	height: 792px; */
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	position: absolute;
+	top: 25px;
+}
+
+.header {
+	width: 470px;
+	height: 44px;
+}
+
+.avatar {
+	width: 32px;
+	position: relative;
+	padding: 6px;
+}
+
+.nick {
+	position: absolute;
+	top: 5px;
+	left: 50px;
+	font-weight: bold;
+}
+
+.geo {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+.img {
+	width: 470px;
+}
+
+.footer {
+	width: 470px;
+	height: 144px;
+}
+
+.like {
+	display: inline;
+	position: relative;
+	width: 40px;
+}
+
+.comment {
+	display: inline;
+	position: relative;
+	width: 40px;
+}
+
+.repost {
+	display: inline;
+	position: relative;
+	width: 40px;
+}
+
+#like {
+	width: 40px;
+}
+
+#comment {
+	width: 40px;
+}
+
+#plane {
+	width: 40px;
+}
+
+#avatar {
+	width: 32px;
+}
