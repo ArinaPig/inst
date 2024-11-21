@@ -5,5 +5,3 @@ document.getElementById('like').addEventListener('click', function () {
 		document.getElementById('like').src = 'img/like.svg'
 	}
 })
-
-console.log(document.getElementById('like').getAttribute('src'))
