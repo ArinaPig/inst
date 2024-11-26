@@ -1,10 +1,9 @@
-localStorage.setItem('redLike', 'img/redLike.svg')
-localStorage.setItem('like', 'img/like.svg')
-
 document.getElementById('like').addEventListener('click', function () {
-	if (document.getElementById('like').getAttribute('src') == 'img/like.svg') {
-		document.getElementById('like').src = localStorage.getItem('redLike')
+	if (localStorage.length == 0) {
+		document.getElementById('like').src = 'img/redLike.svg'
+		localStorage.setItem('isLike', 'red')
 	} else {
-		document.getElementById('like').src = localStorage.getItem('like')
+		document.getElementById('like').src = 'img/like.svg'
+		localStorage.clear()
 	}
 })
